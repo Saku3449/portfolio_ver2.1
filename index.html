@@ -8,33 +8,35 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
-    <script src="app.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Zen+Kurenaido&display=swap"
+        rel="stylesheet">
     <title>My WebSite</title>
 </head>
 
 <body>
     <div class="background">
-        <input type="checkbox" id="drawer-toggle" name="drawer-toggle" />
-        <label for="drawer-toggle" id="drawer-toggle-label"></label>
-        <header>Private Portfolio</header>
-        <nav id="drawer">
+        <header>
+            <h1>Saku's Portfolio</h1>
             <ul>
                 <li><a href="#info">Info</a></li>
                 <li><a href="#career">Career</a></li>
-                <li><a href="#bio">Bio</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="#bio">Bio</a></li>
             </ul>
-        </nav>
-        <section class="content">
-            <div class="center">
+        </header>
+        <section class="main">
+            <div class="top">
                 <h1>YUSAKU NOKUBI</h1>
                 <img src="images/IMG_1786.png" alt="">
             </div>
             <section class="info" id="info">
                 <h2>Info</h2>
                 <div class="info-contents">
-                    <div class="info-content">
+                    <div class="content">
                         <h3>合同会社Arkletに参画！</h3>
                         <div class="date">2022.8.4</div>
                         <p>
@@ -42,7 +44,7 @@
                             Unityを用いたVR技術により、画期的な住まい選びを生み出す。
                         </p>
                     </div>
-                    <div class="info-content">
+                    <div class="content">
                         <h3>Transformerについて発表！</h3>
                         <div class="date">2022.8.1</div>
                         <p>
@@ -50,89 +52,92 @@
                             Encodingから説明することで、予習がなくても理解できることを意識した。
                         </p>
                     </div>
-                    <div class="info-content">
+                    <div class="content">
                         <div class="date">2022.7.20</div>
                         <h3>株式会社SAgriで勤務開始！</h3>
                         <p>
-                            衛星データを
+                            衛星データを活用した農業の自動化業務。colabを用いてデータの前処理、学習を行う。
                         </p>
                     </div>
-                    <div class="info-content">
+                    <div class="content">
                         <div class="date">2022.5.25</div>
                         <h3>松尾研究室公開講座「世界モデルと知能」にて最終プレゼン！</h3>
                         <p>
-
+                            CLIPassoで用いられるラスタライザをNeural
+                            Rendererに置き換えることで、世界モデルに絡めるとどうなるかを実験。
+                            スケッチ化した人物画像の感情分析を通して、元画像の意味をどれだけ保持できるかを確かめた。
                         </p>
                     </div>
-                    <div class="info-content">
+                    <div class="content">
                         <div class="date">2022.4.21</div>
                         <h3>テックカフェにてLT実施！</h3>
                         <p>
-
+                            名古屋の大学生向け。自身の経験から、熱中できるものの見つけ方、続け方について話した。
                         </p>
                     </div>
-                    <div class="info-content">
+                    <div class="content">
                         <div class="date">2022.4.1</div>
                         <h3>佐藤坂上研究室に配属！</h3>
                         <p>
-
+                            画像系の研究を行うことに。NeRFやdifferentiable renderingの考え方をベースに進める予定。
                         </p>
                     </div>
+                    <div class="last-border"></div>
                 </div>
             </section>
             <section class="career" id="career">
                 <h2>Career</h2>
                 <div class="career-contents">
-                    <div class="career-content">
+                    <div class="content">
                         <div class="year">2019-</div>
                         <p>
                             名古屋工業大学
                             情報工学科
                         </p>
                     </div>
-                    <div class="career-content">
+                    <div class="content">
                         <div class="year">2021-</div>
                         <p>
                             Life is Tech!
                             メンター
                         </p>
                     </div>
-                    <div class="career-content">
+                    <div class="content">
                         <div class="year">2022-</div>
                         <p>
                             株式会社SAgri
                             機械学習エンジニア
                         </p>
                     </div>
-                    <div class="career-content">
+                    <div class="content">
                         <div class="year">2022-</div>
                         <p>
                             合同会社Arklet
                             Unityエンジニア
                         </p>
                     </div>
-                    <div class="career-content">
+                    <div class="content">
                         <div class="year">2019-2021</div>
                         <p>
                             河合塾岐阜校
                             チューター
                         </p>
                     </div>
-                    <div class="career-content">
+                    <div class="content">
                         <div class="year">2021-2022</div>
                         <p>
                             株式会社エフエイオープン
                             データサイエンティスト
                         </p>
                     </div>
-                    <div class="career-content">
+                    <div class="content">
                         <div class="year">2021-2022</div>
                         <p>
                             NAGOYA BOOST 10000
                             最優秀賞
                         </p>
                     </div>
-                    <div class="career-content">
+                    <div class="content">
                         <div class="year">2022</div>
                         <p>
                             いちミラビジネスコンテスト
@@ -141,25 +146,33 @@
                     </div>
                 </div>
             </section>
-            <section class="bio" id="bio">
-                <h2>BIOGRAPHY</h2>
-                <p>
-                    2000年5月3日生まれ。名古屋工業大学在学中。<br>
-                    Leaders13期ではUnityを選択。キャンプ、スクールで班持ち、運営としてアサイン。<br>
-                    現在はDX、スクールを中心に活動。<br>
-                    大学では、3Dモデルを手描き画像風に変換できるレンダリングに関する研究を行なっている。<br>
-                    2022年7月より、「SAGri株式会社」にて機械学習エンジニアとして業務委託開始。衛星データを用い、農業の自動化を行う。<br>
-                    また、同月より「合同会社Arklet」にてUnityエンジニアとして参画。メタバース空間のプラットフォーム作成を目指し、現在は住宅内覧システム「VUILD」の開発を担当。
-                </p>
-            </section>
-            <section class="concact" id="contact">
+            <section class="contact" id="contact">
                 <h2>Contact</h2>
                 <div class="sns">
-                    <a href="https://twitter.com/saku3449" class="sns-twitter">Twitter</a>
-                    <a href="https://www.facebook.com/yusakusk" class="sns-facebook">Facebook</a>
-                    <a href="https://life-is-tech.com/school/" class="sns-website">Webサイト</a>
+                    <a href="https://twitter.com/saku3449" class="sns-twitter">
+                        <img src="images/2021 Twitter logo - blue.png" alt="twitter">
+                    </a>
+                    <a href="https://www.facebook.com/yusakusk" class="sns-facebook">
+                        <img src="images/f_logo_RGB-Blue_1024.png" alt="facebook">
+                    </a>
+                    <a href="https://life-is-tech.com/school/" class="sns-website">
+                        <img src="images/GitHub-Mark-120px-plus.png" alt="github">
+                    </a>
                 </div>
             </section>
+        </section>
+        <section class="bio" id="bio">
+            <h2>BIOGRAPHY</h2>
+            <p>
+                2000年5月3日生まれ。名古屋工業大学在学中。<br>
+                Leaders13thではUnityを受講。キャンプ・スクールで班持ち、運営としてアサイン。<br>
+                現在はDX、スクールを中心に活動。<br>
+                大学では、3Dモデルを手描き画像風に変換するレンダリングについて研究している。<br>
+                2022年7月より、「SAGri株式会社」にて機械学習エンジニアとして業務委託開始。衛星データを用い、農業の自動化を行う。<br>
+                また、同月より「合同会社Arklet」にてUnityエンジニアとして参画。メタバース空間のプラットフォーム作成を目指し、現在は住宅内覧システム「VUILD」の開発を担当。<br>
+                直感で「降りたい！」と思った地下鉄で降り、知らない街に繰り出すのが趣味。<br>
+                最近のリフレッシュ方法は、今池に行きウェルビーで整った後、味仙で豪遊すること。
+            </p>
         </section>
         <footer>&copy;Yusaku Nokubi, Saku</footer>
     </div>
