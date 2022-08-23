@@ -66,6 +66,7 @@ header a {
     border-radius: 10px;
     margin: 50px 20%;
     padding: 20px;
+    transition-duration: 1s;
 }
 
 .main .top {
